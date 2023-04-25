@@ -1,0 +1,130 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-size: 22px;
+  color: white;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+p {
+	color: white;
+	font-size: 26px;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 800px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+  align-content: center;
+  text-align: center;
+}
+
+#sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#sidebar-list-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	width: 100%;
+}
+
+#infoBox {
+	height: 250px;
+	background-color: black;
+	margin-bottom: 20px;
+	padding: 15px;
+	white-space: pre-line;
+    text-align: left;
+}
+
+#locationsList {
+	flex: 1;
+	min-width: 300px;
+	padding: 20px;
+}
+
+#locationsList button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#locationsList button.active {
+  background-color: #666;
+}
+
+#evidenceList {
+	flex: 1;
+	min-width: 300px;
+	padding: 20px;
+}
+
+#evidenceList button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#evidenceList button.active {
+  background-color: #666;
+}
+
+#clickableItems button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;	
+  font-size: 20px;
+}
+
+#main {
+  margin-right: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 1024px;
+  height: 900px;
+}
+
+#locationImage {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  box-sizing: border-box;
+}
